@@ -9,6 +9,7 @@ module.exports = {
 		'plugin:@typescript-eslint/recommended',
 		'airbnb',
 		'airbnb-typescript',
+		'plugin:storybook/recommended',
 		'prettier',
 	],
 	overrides: [
@@ -74,6 +75,7 @@ module.exports = {
 				// functions: 'defaultArguments',
 			},
 		],
+
 		// Allow use of arrow functions.
 		'arrow-body-style': ['warn', 'always'],
 		'react/function-component-definition': [
