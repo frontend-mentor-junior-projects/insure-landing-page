@@ -18,6 +18,24 @@ export default {
 				heading: ['DM Serif Display', 'serif'],
 				sans: ['Karla', 'sans-serif'],
 			},
+			backgroundImage: {
+				'mobile-nav':
+					"url('../public/assets/images/bg-pattern-mobile-nav.svg')",
+				'hww-desktop':
+					"url('../public/assets/images/bg-pattern-how-we-work-desktop.svg')",
+				'hww-mobile':
+					"url('../public/assets/images/bg-pattern-how-we-work-mobile.svg')",
+				'footer-desktop':
+					"url('../public/assets/images/bg-pattern-footer-desktop.svg')",
+				'footer-mobile':
+					"url('../public/assets/images/bg-pattern-footer-mobile.svg')",
+				'pattern-left-mobile':
+					"url('../public/assets/images/bg-pattern-intro-left-mobile.svg')",
+				'pattern-right-mobile':
+					"url('../public/assets/images/bg-pattern-intro-right-mobile.svg')",
+				'patterns-mobile':
+					"url('../public/assets/images/bg-pattern-intro-left-mobile.svg'), url('../public/assets/images/bg-pattern-intro-right-mobile.svg')",
+			},
 		},
 	},
 	plugins: [],
