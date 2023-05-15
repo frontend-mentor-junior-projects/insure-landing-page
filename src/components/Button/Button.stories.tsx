@@ -13,4 +13,33 @@ const meta: Meta<typeof Button> = {
 export default meta
 type Story = StoryObj<typeof Button>
 
-export const Default: Story = {}
+export const OnLightBackground: Story = {
+	args: {
+		color: 'dark',
+	},
+	decorators: [
+		(Story) => {
+			return (
+				<div className='bg-neutral-100 p-6'>
+					<Story />
+				</div>
+			)
+		},
+	],
+}
+
+export const OnDarkBackground: Story = {
+	args: {
+		color: 'light',
+	},
+
+	decorators: [
+		(Story) => {
+			return (
+				<div className='bg-neutral-300 p-6'>
+					<Story />
+				</div>
+			)
+		},
+	],
+}
