@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import utils from 'components/utils'
+import utils from 'utils'
 
 import Card from '.'
 

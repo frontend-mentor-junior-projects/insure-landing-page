@@ -3,7 +3,7 @@ import Instagram from 'assets/images/icon-instagram.svg'
 import Pinterest from 'assets/images/icon-pinterest.svg'
 import Twitter from 'assets/images/icon-twitter.svg'
 import Logo from 'components/Logo'
-import utils from 'components/utils'
+import utils from 'utils'
 
 const Footer = () => {
 	return (

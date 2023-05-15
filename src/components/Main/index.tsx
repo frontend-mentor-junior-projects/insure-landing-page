@@ -3,7 +3,7 @@ import Button from 'components/Button'
 import Card from 'components/Card'
 import Footer from 'components/Footer'
 import Header from 'components/Header'
-import utils from 'components/utils'
+import utils from 'utils'
 
 const Main = () => {
 	return (
@@ -13,7 +13,7 @@ const Main = () => {
 			<section className='sm:grid sm:grid-cols-2 bg-primary-200 flex flex-col-reverse relative'>
 				<div
 					className={`pt-[104px] pb-[96px] sm:pb-[64px] lg:pb-[96px] px-6 sm:px-10 xl:pl-[160px] flex flex-col items-center sm:items-start text-neutral-100 lg:px-10 bg-pattern-left-mobile bg-no-repeat bg-left-top sm:bg-none
-          relative `}
+          relative`}
 				>
 					<div className='relative'>
 						<hr className='hidden sm:block w-[152px] h-[2px] bg-[#B7A8B8] mb-[72px]' />
@@ -23,7 +23,7 @@ const Main = () => {
 						</h1>
 					</div>
 
-					<p className='mb-8 text-center sm:text-left px-6'>
+					<p className='mb-8 text-center sm:text-left'>
 						Get your life insurance coverage easier and faster. We blend our
 						expertise and technology to help you find the plan that’s right for
 						you. Ensure you and your loved ones are protected.
@@ -44,7 +44,7 @@ const Main = () => {
 					/>
 				</div>
 
-				<picture className='sm:absolute xl:right-[168px] xl:top-[104px] lg:right-[32px] sm:w-1/2 lg:w-1/2 xl:w-auto lg:top-[100px] sm:bg-red-400 sm:top-4 sm:right-0'>
+				<picture className='sm:absolute xl:right-[168px] xl:top-[104px] lg:right-[32px] sm:w-1/2 lg:w-1/2 xl:w-auto lg:top-[100px] sm:bg-red-400 sm:top-[100px] sm:right-0'>
 					<source
 						media='(min-width:640px)'
 						srcSet='assets/images/image-intro-desktop.jpg'
