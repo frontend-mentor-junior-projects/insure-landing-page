@@ -35,7 +35,7 @@
 ## Preview
 
 <div align='center'>
-  <img src='./design/preview.png' alt='Insure Landing Page preview image'>
+  <img src='./design/screenshot.png' alt='Insure Landing Page preview image'>
 </div>
 
 <h2>The Challenge</h2>
