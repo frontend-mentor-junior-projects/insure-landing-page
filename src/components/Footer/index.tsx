@@ -14,10 +14,18 @@ const Footer = () => {
 				</div>
 
 				<div className='flex flex-row space-x-4'>
-					<Facebook />
-					<Twitter />
-					<Instagram />
-					<Pinterest />
+					<a href='/'>
+						<Facebook />
+					</a>
+					<a href='/'>
+						<Twitter />
+					</a>
+					<a href='/'>
+						<Instagram />
+					</a>
+					<a href='/'>
+						<Pinterest />
+					</a>
 				</div>
 			</section>
 
