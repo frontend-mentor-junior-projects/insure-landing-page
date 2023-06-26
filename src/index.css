@@ -16,7 +16,7 @@ html {
 
 *:focus {
 	outline-offset: 6px;
-	outline: 2px dashed var(--neutral-300);
+	outline: 2px dashed black;
 }
 
 .skip-link {
