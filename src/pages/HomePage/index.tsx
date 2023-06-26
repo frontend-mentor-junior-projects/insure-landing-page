@@ -1,12 +1,16 @@
+import { useRef } from 'react'
+
 import { Button, PageLayout } from 'components'
 import utils from 'utils'
 
 import { Card } from './components'
 
 const HomePage = () => {
+	const mainContentRef = useRef<HTMLElement>(null)
+
 	return (
-		<PageLayout>
-			<main>
+		<PageLayout mainContentRef={mainContentRef}>
+			<main id='main-content' ref={mainContentRef}>
 				<section className='sm:grid sm:grid-cols-2 bg-primary-200 flex flex-col-reverse relative'>
 					<div
 						className={`pt-[104px] pb-[96px] sm:pb-[64px] lg:pb-[96px] px-6 sm:px-10 xl:pl-[160px] flex flex-col items-center sm:items-start text-neutral-100 lg:px-10 bg-pattern-left-mobile bg-no-repeat bg-left-top sm:bg-none
