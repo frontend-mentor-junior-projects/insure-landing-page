@@ -2,6 +2,8 @@ import type { Preview } from '@storybook/react'
 import 'tailwindcss/tailwind.css'
 import lib from './lib'
 
+import { withRouter } from 'storybook-addon-react-router-v6'
+
 const preview: Preview = {
 	parameters: {
 		actions: { argTypesRegex: '^on[A-Z].*' },
@@ -21,6 +23,7 @@ const preview: Preview = {
 			viewports: { ...lib.CUSTOM_VIEWPORTS },
 		},
 	},
+	decorators: [withRouter],
 }
 
 export default preview
