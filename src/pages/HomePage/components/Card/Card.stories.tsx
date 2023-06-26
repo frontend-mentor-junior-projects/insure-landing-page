@@ -4,7 +4,7 @@ import utils from 'utils'
 import Card from '.'
 
 const meta: Meta<typeof Card> = {
-	title: 'Components/Card',
+	title: 'Pages/Home/Card',
 	component: Card,
 	args: {
 		content: utils.SERVICES[0],
